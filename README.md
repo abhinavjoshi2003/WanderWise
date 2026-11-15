@@ -90,11 +90,11 @@ cd WanderWise
 Navigate to the backend directory:
 
 ```bash
-cd backend
+cd server
 npm install
 ```
 
-Create a `.env` file inside the `backend/` directory:
+Create a `.env` file inside the `server/` directory:
 
 ```env
 NODE_ENV=development
@@ -130,14 +130,13 @@ http://localhost:5000/api/health
 
 ### 4. Configure the frontend
 
-Open another terminal and navigate to the frontend directory:
+Open another terminal and navigate to the root directory:
 
 ```bash
-cd frontend
 npm install
 ```
 
-Create a `.env` file inside `frontend/`:
+Create a `.env` file inside the root directory:
 
 ```env
 VITE_API_URL=http://localhost:5000
